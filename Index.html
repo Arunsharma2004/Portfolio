@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arun Sharma - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background: #2d89ef;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        header p {
+            margin: 5px 0;
+            font-size: 1.2em;
+        }
+        nav {
+            background: #333;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1em;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 30px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .projects, .skills {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        .card h3 {
+            margin-top: 0;
+        }
+        footer {
+            background: #2d89ef;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Arun Sharma</h1>
+        <p>Himachal Pradesh, India | (+91) 8580408598 | <a href="mailto:arunshrma2004@gmail.com" style="color:#fff; text-decoration:none;">arunshrma2004@gmail.com</a></p>
+        <p><a href="https://www.linkedin.com/in/arun-sharma" target="_blank" style="color:#fff; text-decoration:underline;">LinkedIn Profile</a></p>
+    </header>
+    <nav>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#education">Education</a>
+    </nav>
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects">
+                <div class="card">
+                    <h3>Department Store Product and Invoice Management</h3>
+                    <ul>
+                        <li>Developed an inventory tracking system to monitor stock levels and reduce discrepancies.</li>
+                        <li>Optimized stock levels based on sales data and forecasts.</li>
+                        <li>Ensured compliance with store policies through regular audits.</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>Disease Prediction Based on Symptoms</h3>
+                    <ul>
+                        <li>Implemented machine learning models to predict diseases using symptoms.</li>
+                        <li>Prepared data through normalization and feature extraction.</li>
+                        <li>Worked with large datasets of patient symptoms and diagnoses.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="skills">
+        <div class="container">
+            <h2>Technical Skills</h2>
+            <div class="skills">
+                <div class="card">
+                    <h3>Programming</h3>
+                    <p>C++, Python</p>
+                </div>
+                <div class="card">
+                    <h3>System Knowledge</h3>
+                    <p>Operating Systems, Computer Networks</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="certifications">
+        <div class="container">
+            <h2>Certifications</h2>
+            <ul>
+                <li>Microsoft Certified: Azure AI Fundamentals</li>
+                <li>What is Data Science? (IBM through Coursera)</li>
+                <li>Introduction to Big Data with Spark and Hadoop (IBM through Coursera)</li>
+                <li>OCI Generative AI Professional</li>
+            </ul>
+        </div>
+    </section>
+    <section id="education">
+        <div class="container">
+            <h2>Education</h2>
+            <div class="card">
+                <h3>Bachelor of Engineering - Computer Science (AIML)</h3>
+                <p>Chandigarh University, Mohali, Punjab (2022-2026)</p>
+                <p>CGPA: 7.0</p>
+            </div>
+            <div class="card">
+                <h3>High School</h3>
+                <p>St. Paul’s Senior Secondary School, Palampur (2021)</p>
+                <p>Percentage: 71%</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2025 Arun Sharma | Designed for University Placements</p>
+    </footer>
+</body>
+</html>
